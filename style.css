@@ -1,0 +1,88 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #9ec6cf;
+    color: #2c2a2a;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(13, 86, 104);
+    color: #f8eeee;
+}
+.paragraph{
+font-size: 25px;
+font-weight: 700;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(14, 12, 12, 0.1);
+}
+
+h2 {
+    color:rgb(13, 86, 104); 
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px;
+    background-color: #f4f4f4;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+button {
+    display: inline;
+    margin: 17px ;
+    padding: 19px;
+    font-size: 18px;
+    background-color: rgb(62, 165, 190);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-family:sans-serif ;
+    color: #fff;
+    
+}
+
+button:hover {
+    background-color:rgb(13, 86, 104);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    header, main {
+        padding: 10px;
+    }
+
+    header img {
+        width: 100px;
+        height: 100px;
+    }
+
+    button {
+        
+        width: 50%;
+    }
+}
